@@ -12,7 +12,7 @@ List func(List x, int i) {
   if (i <= 0 && i < x.length) {
     return x1=x[i];
   } else {
-    return x1;
+    return x1=['hello'];
   }
 }
 

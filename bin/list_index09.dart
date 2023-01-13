@@ -16,9 +16,9 @@ bool func(List x) {
     i++;
   }
   if (s == x.length) {
-    return true;
+    return false;
   }
-  return false;
+  return true;
 }
 
 void main() {
