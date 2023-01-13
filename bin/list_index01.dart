@@ -6,8 +6,9 @@
     Returns:
         list: return answer
 */
- bool func(List x) {
-  return x.isEmpty;
+List func(List x) {
+  List a = [];
+  return a;
 }
 
 void main() {
