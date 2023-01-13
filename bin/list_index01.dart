@@ -6,9 +6,8 @@
     Returns:
         list: return answer
 */
-List func(List x) {
-  x = [];
-  return x;
+bool func(List x) {
+  return x.isEmpty;
 }
 
 void main() {
