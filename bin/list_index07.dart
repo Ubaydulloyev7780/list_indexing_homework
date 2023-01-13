@@ -6,4 +6,17 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List x) {
+  int i = 0;
+  while (i < x.length) {
+    if (x[i] == 0) {
+      x[i] = 'False';
+    }
+    i++;
+  }
+  return x;
+}
+
+void main() {
+  print(func([1, 0, 0, 1]));
+}

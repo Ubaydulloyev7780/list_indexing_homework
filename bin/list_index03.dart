@@ -7,4 +7,11 @@
     Returns:
         list: return answer
 */
-void main() {}
+List func(List x1, List x2) {
+  List x3 = x1 + x2;
+  return x3;
+}
+
+void main() {
+  print(func([1, 2, 3, 4], [6, 7]));
+}

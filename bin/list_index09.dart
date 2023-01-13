@@ -6,4 +6,21 @@
     Returns:
         bool: return answer
 */
-void main() {}
+bool func(List x) {
+  int i = 0;
+  int s = 0;
+  while (i < x.length) {
+    if (x[i] == 0) {
+      s++;
+    }
+    i++;
+  }
+  if (s == x.length) {
+    return true;
+  }
+  return false;
+}
+
+void main() {
+  print(func([0, 0, 0, 0]));
+}

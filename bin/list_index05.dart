@@ -7,4 +7,18 @@
     Returns:
         list: return answer
 */
-void main() {}
+String func(List x, int i) {
+  if (i <= 0 && i < x.length) {
+    return x[i].toString();
+  } else {
+    return 'error';
+  }
+}
+
+void main() {
+  print(func([
+    'q',
+    23,
+    43,
+  ], 4));
+}

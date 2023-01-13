@@ -6,4 +6,13 @@
     Returns:
         list: return answer
 */
-void main() {}
+import 'dart:math';
+
+int func(List x) {
+  int a = max(x.last, x.first);
+  return a;
+}
+
+void main() {
+  print(func([2, 3, 4, 5, 1]));
+}

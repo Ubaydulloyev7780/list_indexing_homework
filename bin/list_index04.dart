@@ -6,4 +6,10 @@
     Returns:
         list: return answer
 */
-void main() {}
+String func(List x) {
+  return x.last.toString();
+}
+
+void main() {
+  print(func([1, 2, 3, 4, 5]));
+}
