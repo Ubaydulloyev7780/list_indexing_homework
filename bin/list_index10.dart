@@ -8,9 +8,10 @@
 */
 import 'dart:math';
 
-int func(List x) {
-  int b = max(x.last, x.first);
-  return b;
+List func(List x) {
+  num b = max(x.last, x.first);
+  List a = [b];
+  return a;
 }
 
 void main() {
