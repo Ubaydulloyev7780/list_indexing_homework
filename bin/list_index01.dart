@@ -6,11 +6,11 @@
     Returns:
         list: return answer
 */
-List func(List x) {
-  x = [];
+List func() {
+  List x = [];
   return x;
 }
 
 void main() {
-  print(func([2, 4]));
+  print(func());
 }
