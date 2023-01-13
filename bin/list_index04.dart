@@ -6,8 +6,9 @@
     Returns:
         list: return answer
 */
-String func(List x) {
-  return x.last.toString();
+List func(List x) {
+  List x1 = [x.last];
+  return x1;
 }
 
 void main() {

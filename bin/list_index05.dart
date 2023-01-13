@@ -7,11 +7,12 @@
     Returns:
         list: return answer
 */
-String func(List x, int i) {
+List func(List x, int i) {
+  List x1 = [];
   if (i <= 0 && i < x.length) {
-    return x[i].toString();
+    return x1=x[i];
   } else {
-    return 'error';
+    return x1;
   }
 }
 
