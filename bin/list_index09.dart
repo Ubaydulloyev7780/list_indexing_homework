@@ -9,13 +9,14 @@
 bool func(List x) {
   int i = 0;
   int s = 0;
-  while (i < x.length) {
-    if (x[i] == 0) {
+
+  while (i < x.length-1) {
+    if (x[i] == x[i+1]) {
       s++;
     }
     i++;
   }
-  if (s == x.length) {
+  if (s == x.length-1) {
     return true;
   }
   return false;
