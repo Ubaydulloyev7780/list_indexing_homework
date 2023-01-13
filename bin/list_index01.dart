@@ -6,7 +6,7 @@
     Returns:
         list: return answer
 */
-bool func(List x) {
+ bool func(List x) {
   return x.isEmpty;
 }
 

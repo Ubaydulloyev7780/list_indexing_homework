@@ -18,7 +18,7 @@ bool func(List x) {
   if (s == x.length) {
     return false;
   }
-  return true;
+  return false;
 }
 
 void main() {
